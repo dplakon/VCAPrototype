@@ -119,6 +119,8 @@ statusBar.index = 99
 
 InputModule = require "input"
 
+# Text Input Fields
+
 input = new InputModule.Input
   setup: false # Change to true when positioning the input so you can see it
   y: -30 # y position
@@ -127,7 +129,7 @@ input = new InputModule.Input
   height: 10
   placeholder: "Search"
   fontSize: 16
-  textColor: "#002D72"
+  textColor: "#FFFFFF"
   fontFamily: "Interstate"
   parent: searchunderline
   virtualKeyboard: true
@@ -164,6 +166,19 @@ dollarRequestField = new InputModule.Input
   virtualKeyboard: true
 Events.wrap(dollarRequestField.form).addEventListener "submit", (event) ->
 	event.preventDefault()
+
+# Detail Page Setup
+
+detailScroll = new ScrollComponent
+	width: Screen.width
+	y: 267
+	height: 400
+	scrollHorizontal: false
+	parent: CardDetailPage
+	contentInset: -100
+
+detailsContainer.parent = detailScroll.content
+detailsContainer.y = 40
 
 glow= new Layer
 	width: 600
@@ -293,10 +308,29 @@ d6.states.hide =
 realCard.states.normal =
 	rotationX: 0
 	rotationY: 0
+	z: 1
 	midX: Screen.midX
 	y: 20
 	animationOptions:
 		time: .2
+
+realCard.states.hide =
+	rotationX: -90
+	rotationY: 0
+	z: -200
+	midX: Screen.midX
+	y: 20
+	animationOptions:
+		time: 1
+
+realCard.states.open =
+	rotationX: 0
+	rotationY: 0
+	midX: Screen.midX
+	y: 20
+	z: 1
+	animationOptions:
+		time: .5
 
 realCard.z = 1
 detailBG.z = -20
@@ -444,7 +478,15 @@ viewDetail = () ->
 						d5.animate("default")
 						Utils.delay .1, ->
 							d6.animate("default")
+	realCard.animate("open")
+	detailScroll.scrollToPoint(
+		x: 0, y: 400
+		true 
+		curve: Bezier.ease
+		)
 
+detailScroll.on "change:y", ->
+	print detailScroll.y
 
 viewAlerts = () ->
 	NavBar.animate("alerts")
@@ -491,6 +533,8 @@ leaveAlerts = () ->
 	d4.stateSwitch("hide")
 	d5.stateSwitch("hide")
 	d6.stateSwitch("hide")
+	Utils.delay .3, ->
+		realCard.stateSwitch("hide")
 
 viewDashboard = () ->
 	viewController.showNext(Dashboard)
@@ -614,6 +658,7 @@ d3.stateSwitch("hide")
 d4.stateSwitch("hide")
 d5.stateSwitch("hide")
 d6.stateSwitch("hide")
+realCard.stateSwitch("hide")
 
 addCards("$150.00", "12 Hours", "Meal Expense Card", "7654")
 

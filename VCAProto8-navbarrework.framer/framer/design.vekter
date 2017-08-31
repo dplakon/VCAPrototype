@@ -795,27 +795,27 @@
                           "depth" : 0,
                           "inlineStyleRanges" : [
                             {
-                              "length" : 14,
+                              "length" : 19,
                               "style" : "SIZE:16",
                               "offset" : 0
                             },
                             {
-                              "length" : 14,
+                              "length" : 19,
                               "style" : "LETTERSPACING:0",
                               "offset" : 0
                             },
                             {
-                              "length" : 14,
+                              "length" : 19,
                               "style" : "LINEHEIGHT:1.2",
                               "offset" : 0
                             },
                             {
-                              "length" : 14,
+                              "length" : 19,
                               "style" : "COLOR:rgb(255, 240, 240)",
                               "offset" : 0
                             },
                             {
-                              "length" : 14,
+                              "length" : 19,
                               "style" : "FONT:Interstate-Regular",
                               "offset" : 0
                             }
@@ -832,7 +832,7 @@
                               "FONT:Interstate-Regular"
                             ]
                           },
-                          "text" : "1234 5678 4906",
+                          "text" : "1234 5678 9999 4906",
                           "key" : "a8ljc",
                           "type" : "unstyled"
                         }
@@ -860,7 +860,7 @@
                     "bottom" : null,
                     "height" : 19,
                     "opacity" : 1,
-                    "width" : 126,
+                    "width" : 171,
                     "widthFactor" : null,
                     "targetName" : null,
                     "heightFactor" : null,
@@ -1011,14 +1011,14 @@
             "radiusBottomLeft" : 0,
             "rotation" : 0,
             "__class" : "RectangleNode",
-            "id" : "`9FVF=^2",
-            "fillColor" : "rgb(238, 238, 238)",
+            "id" : "'S|e,{5g",
+            "fillColor" : "rgba(0,170,255,0.5)",
             "aspectRatioLocked" : false,
             "widthFactor" : null,
             "opacity" : 1,
             "clip" : false,
             "borderColor" : "#222",
-            "left" : 15,
+            "left" : 0,
             "locked" : false,
             "fillGradient" : {
               "end" : "rgba(0,0,0,0)",
@@ -1044,13 +1044,760 @@
             "fillType" : "color",
             "radiusBottomRight" : 0,
             "children" : [
+              {
+                "radiusBottomLeft" : 0,
+                "rotation" : 0,
+                "__class" : "RectangleNode",
+                "id" : "`9FVF=^2",
+                "fillColor" : "rgb(238, 238, 238)",
+                "aspectRatioLocked" : false,
+                "widthFactor" : null,
+                "opacity" : 1,
+                "clip" : false,
+                "borderColor" : "#222",
+                "left" : 15,
+                "locked" : false,
+                "fillGradient" : {
+                  "end" : "rgba(0,0,0,0)",
+                  "alpha" : 1,
+                  "angle" : 0,
+                  "__class" : "LinearGradient",
+                  "start" : "black"
+                },
+                "radius" : 0,
+                "boxShadows" : [
+                  {
+                    "x" : 0,
+                    "color" : "rgba(0,0,0,0.25)",
+                    "enabled" : false,
+                    "y" : 2,
+                    "__class" : "BoxShadow",
+                    "inset" : false,
+                    "blur" : 5
+                  }
+                ],
+                "centerAnchorX" : 0.5,
+                "borderPerSide" : false,
+                "fillType" : "color",
+                "radiusBottomRight" : 0,
+                "children" : [
 
+                ],
+                "fillEnabled" : true,
+                "parentid" : "'S|e,{5g",
+                "borderRight" : 1,
+                "name" : null,
+                "height" : 1,
+                "borderWidth" : 1,
+                "top" : 72,
+                "borderTop" : 1,
+                "radiusTopRight" : 0,
+                "borderBottom" : 1,
+                "borderEnabled" : false,
+                "constraintsLocked" : false,
+                "right" : 15,
+                "radiusPerCorner" : false,
+                "centerAnchorY" : 0.2865612648221344,
+                "visible" : true,
+                "borderLeft" : 1,
+                "heightFactor" : null,
+                "radiusTopLeft" : 0,
+                "targetName" : null,
+                "bottom" : null,
+                "width" : 345
+              },
+              {
+                "radiusBottomLeft" : 0,
+                "rotation" : 0,
+                "__class" : "RectangleNode",
+                "id" : "Ji2CIVCA",
+                "fillColor" : "rgb(238, 238, 238)",
+                "aspectRatioLocked" : false,
+                "widthFactor" : null,
+                "opacity" : 1,
+                "clip" : false,
+                "borderColor" : "#222",
+                "left" : 15,
+                "locked" : false,
+                "fillGradient" : {
+                  "end" : "rgba(0,0,0,0)",
+                  "alpha" : 1,
+                  "angle" : 0,
+                  "__class" : "LinearGradient",
+                  "start" : "black"
+                },
+                "radius" : 0,
+                "boxShadows" : [
+                  {
+                    "x" : 0,
+                    "color" : "rgba(0,0,0,0.25)",
+                    "enabled" : false,
+                    "y" : 2,
+                    "__class" : "BoxShadow",
+                    "inset" : false,
+                    "blur" : 5
+                  }
+                ],
+                "centerAnchorX" : 0.5,
+                "borderPerSide" : false,
+                "fillType" : "color",
+                "radiusBottomRight" : 0,
+                "children" : [
+
+                ],
+                "fillEnabled" : true,
+                "parentid" : "'S|e,{5g",
+                "borderRight" : 1,
+                "name" : null,
+                "height" : 1,
+                "borderWidth" : 1,
+                "top" : null,
+                "borderTop" : 1,
+                "radiusTopRight" : 0,
+                "borderBottom" : 1,
+                "borderEnabled" : false,
+                "constraintsLocked" : false,
+                "right" : 15,
+                "radiusPerCorner" : false,
+                "centerAnchorY" : 0.575098814229249,
+                "visible" : true,
+                "borderLeft" : 1,
+                "heightFactor" : null,
+                "radiusTopLeft" : 0,
+                "targetName" : null,
+                "bottom" : 107,
+                "width" : 345
+              },
+              {
+                "__class" : "TextNode",
+                "locked" : false,
+                "centerAnchorX" : 0.1773333333333333,
+                "parentid" : "'S|e,{5g",
+                "rotation" : 0,
+                "top" : 38,
+                "right" : null,
+                "styledText" : {
+                  "blocks" : [
+                    {
+                      "depth" : 0,
+                      "inlineStyleRanges" : [
+                        {
+                          "length" : 7,
+                          "style" : "SIZE:16",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 7,
+                          "style" : "LETTERSPACING:0",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 7,
+                          "style" : "LINEHEIGHT:1.2",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 7,
+                          "style" : "COLOR:rgb(83, 86, 90)",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 7,
+                          "style" : "FONT:Interstate-Bold",
+                          "offset" : 0
+                        }
+                      ],
+                      "entityRanges" : [
+
+                      ],
+                      "data" : {
+                        "emptyStyle" : [
+                          "SIZE:16",
+                          "LETTERSPACING:0",
+                          "LINEHEIGHT:1.2",
+                          "COLOR:rgb(83, 86, 90)",
+                          "FONT:Interstate-Bold"
+                        ]
+                      },
+                      "text" : "$250.00",
+                      "key" : "3av8d",
+                      "type" : "unstyled"
+                    }
+                  ],
+                  "__class" : "StyledTextDraft",
+                  "entityMap" : {
+
+                  }
+                },
+                "name" : "d2",
+                "shadows" : [
+                  {
+                    "y" : 2,
+                    "enabled" : false,
+                    "blur" : 5,
+                    "x" : 0,
+                    "__class" : "Shadow",
+                    "color" : "rgba(0,0,0,0.25)"
+                  }
+                ],
+                "id" : "acY&$;gF",
+                "x" : 30,
+                "constraintsLocked" : false,
+                "left" : 32,
+                "bottom" : null,
+                "height" : 19,
+                "opacity" : 1,
+                "width" : 69,
+                "widthFactor" : null,
+                "targetName" : "d2",
+                "heightFactor" : null,
+                "editable" : false,
+                "visible" : true,
+                "centerAnchorY" : 0.1877470355731225,
+                "autoSize" : true,
+                "y" : 46
+              },
+              {
+                "__class" : "TextNode",
+                "locked" : false,
+                "centerAnchorX" : 0.1693333333333333,
+                "parentid" : "'S|e,{5g",
+                "rotation" : 0,
+                "top" : 14,
+                "right" : null,
+                "styledText" : {
+                  "blocks" : [
+                    {
+                      "depth" : 0,
+                      "inlineStyleRanges" : [
+                        {
+                          "length" : 12,
+                          "style" : "LETTERSPACING:0",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 12,
+                          "style" : "LINEHEIGHT:1.2",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 12,
+                          "style" : "FONT:Interstate-Regular",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 12,
+                          "style" : "COLOR:rgb(173, 173, 173)",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 12,
+                          "style" : "SIZE:12",
+                          "offset" : 0
+                        }
+                      ],
+                      "entityRanges" : [
+
+                      ],
+                      "data" : {
+                        "emptyStyle" : [
+                          "LETTERSPACING:0",
+                          "LINEHEIGHT:1.2",
+                          "FONT:Interstate-Regular",
+                          "COLOR:rgb(173, 173, 173)",
+                          "SIZE:12"
+                        ]
+                      },
+                      "text" : "Credit Limit",
+                      "key" : "3av8d",
+                      "type" : "unstyled"
+                    }
+                  ],
+                  "__class" : "StyledTextDraft",
+                  "entityMap" : {
+
+                  }
+                },
+                "name" : "d1",
+                "shadows" : [
+                  {
+                    "y" : 2,
+                    "enabled" : false,
+                    "blur" : 5,
+                    "x" : 0,
+                    "__class" : "Shadow",
+                    "color" : "rgba(0,0,0,0.25)"
+                  }
+                ],
+                "id" : "KnS.lPsS",
+                "x" : 28,
+                "constraintsLocked" : false,
+                "left" : 30,
+                "bottom" : null,
+                "height" : 14,
+                "opacity" : 1,
+                "width" : 67,
+                "widthFactor" : null,
+                "targetName" : "d1",
+                "heightFactor" : null,
+                "editable" : false,
+                "visible" : true,
+                "centerAnchorY" : 0.08300395256916997,
+                "autoSize" : true,
+                "y" : 32
+              },
+              {
+                "__class" : "TextNode",
+                "locked" : false,
+                "centerAnchorX" : 0.192,
+                "parentid" : "'S|e,{5g",
+                "rotation" : 0,
+                "top" : null,
+                "right" : null,
+                "styledText" : {
+                  "blocks" : [
+                    {
+                      "depth" : 0,
+                      "inlineStyleRanges" : [
+                        {
+                          "length" : 15,
+                          "style" : "LETTERSPACING:0",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 15,
+                          "style" : "LINEHEIGHT:1.2",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 15,
+                          "style" : "FONT:Interstate-Regular",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 15,
+                          "style" : "COLOR:rgb(173, 173, 173)",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 15,
+                          "style" : "SIZE:12",
+                          "offset" : 0
+                        }
+                      ],
+                      "entityRanges" : [
+
+                      ],
+                      "data" : {
+                        "emptyStyle" : [
+                          "LETTERSPACING:0",
+                          "LINEHEIGHT:1.2",
+                          "FONT:Interstate-Regular",
+                          "COLOR:rgb(173, 173, 173)",
+                          "SIZE:12"
+                        ]
+                      },
+                      "text" : "Billing Address",
+                      "key" : "3av8d",
+                      "type" : "unstyled"
+                    }
+                  ],
+                  "__class" : "StyledTextDraft",
+                  "entityMap" : {
+
+                  }
+                },
+                "name" : "d5",
+                "shadows" : [
+                  {
+                    "y" : 2,
+                    "enabled" : false,
+                    "blur" : 5,
+                    "x" : 0,
+                    "__class" : "Shadow",
+                    "color" : "rgba(0,0,0,0.25)"
+                  }
+                ],
+                "id" : "N#[5-2aW",
+                "x" : 28,
+                "constraintsLocked" : false,
+                "left" : 30,
+                "bottom" : 79,
+                "height" : 14,
+                "opacity" : 1,
+                "width" : 84,
+                "widthFactor" : null,
+                "targetName" : "d5",
+                "heightFactor" : null,
+                "editable" : false,
+                "visible" : true,
+                "centerAnchorY" : 0.6600790513833992,
+                "autoSize" : true,
+                "y" : 32
+              },
+              {
+                "__class" : "TextNode",
+                "locked" : false,
+                "centerAnchorX" : 0.2866666666666667,
+                "parentid" : "'S|e,{5g",
+                "rotation" : 0,
+                "top" : null,
+                "right" : null,
+                "styledText" : {
+                  "blocks" : [
+                    {
+                      "depth" : 0,
+                      "inlineStyleRanges" : [
+                        {
+                          "length" : 13,
+                          "style" : "SIZE:16",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 13,
+                          "style" : "LETTERSPACING:0",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 13,
+                          "style" : "LINEHEIGHT:1.2",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 13,
+                          "style" : "COLOR:rgb(83, 86, 90)",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 13,
+                          "style" : "FONT:Interstate-Bold",
+                          "offset" : 0
+                        }
+                      ],
+                      "entityRanges" : [
+
+                      ],
+                      "data" : {
+                        "emptyStyle" : [
+                          "SIZE:16",
+                          "LETTERSPACING:0",
+                          "LINEHEIGHT:1.2",
+                          "COLOR:rgb(83, 86, 90)",
+                          "FONT:Interstate-Bold"
+                        ]
+                      },
+                      "text" : "1234 Broadway",
+                      "key" : "3av8d",
+                      "type" : "unstyled"
+                    },
+                    {
+                      "depth" : 0,
+                      "inlineStyleRanges" : [
+                        {
+                          "length" : 9,
+                          "style" : "SIZE:16",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 9,
+                          "style" : "LETTERSPACING:0",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 9,
+                          "style" : "LINEHEIGHT:1.2",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 9,
+                          "style" : "COLOR:rgb(83, 86, 90)",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 9,
+                          "style" : "FONT:Interstate-Bold",
+                          "offset" : 0
+                        }
+                      ],
+                      "entityRanges" : [
+
+                      ],
+                      "data" : {
+                        "emptyStyle" : [
+                          "SIZE:16",
+                          "LETTERSPACING:0",
+                          "LINEHEIGHT:1.2",
+                          "COLOR:rgb(83, 86, 90)",
+                          "FONT:Interstate-Bold"
+                        ]
+                      },
+                      "text" : "5th Floor",
+                      "key" : "30ank",
+                      "type" : "unstyled"
+                    },
+                    {
+                      "depth" : 0,
+                      "inlineStyleRanges" : [
+                        {
+                          "length" : 18,
+                          "style" : "SIZE:16",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 18,
+                          "style" : "LETTERSPACING:0",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 18,
+                          "style" : "LINEHEIGHT:1.2",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 18,
+                          "style" : "COLOR:rgb(83, 86, 90)",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 18,
+                          "style" : "FONT:Interstate-Bold",
+                          "offset" : 0
+                        }
+                      ],
+                      "entityRanges" : [
+
+                      ],
+                      "data" : {
+                        "emptyStyle" : [
+                          "SIZE:16",
+                          "LETTERSPACING:0",
+                          "LINEHEIGHT:1.2",
+                          "COLOR:rgb(83, 86, 90)",
+                          "FONT:Interstate-Bold"
+                        ]
+                      },
+                      "text" : "New York, NY 10001",
+                      "key" : "c3tlp",
+                      "type" : "unstyled"
+                    }
+                  ],
+                  "__class" : "StyledTextDraft",
+                  "entityMap" : {
+
+                  }
+                },
+                "name" : "d6",
+                "shadows" : [
+                  {
+                    "y" : 2,
+                    "enabled" : false,
+                    "blur" : 5,
+                    "x" : 0,
+                    "__class" : "Shadow",
+                    "color" : "rgba(0,0,0,0.25)"
+                  }
+                ],
+                "id" : "gqqf=1?s",
+                "x" : 30,
+                "constraintsLocked" : false,
+                "left" : 30,
+                "bottom" : 12,
+                "height" : 57,
+                "opacity" : 1,
+                "width" : 155,
+                "widthFactor" : null,
+                "targetName" : "d6",
+                "heightFactor" : null,
+                "editable" : false,
+                "visible" : true,
+                "centerAnchorY" : 0.8399209486166008,
+                "autoSize" : true,
+                "y" : 46
+              },
+              {
+                "__class" : "TextNode",
+                "locked" : false,
+                "centerAnchorX" : 0.1893333333333333,
+                "parentid" : "'S|e,{5g",
+                "rotation" : 0,
+                "top" : 87,
+                "right" : null,
+                "styledText" : {
+                  "blocks" : [
+                    {
+                      "depth" : 0,
+                      "inlineStyleRanges" : [
+                        {
+                          "length" : 15,
+                          "style" : "LETTERSPACING:0",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 15,
+                          "style" : "LINEHEIGHT:1.2",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 15,
+                          "style" : "FONT:Interstate-Regular",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 15,
+                          "style" : "COLOR:rgb(173, 173, 173)",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 15,
+                          "style" : "SIZE:12",
+                          "offset" : 0
+                        }
+                      ],
+                      "entityRanges" : [
+
+                      ],
+                      "data" : {
+                        "emptyStyle" : [
+                          "LETTERSPACING:0",
+                          "LINEHEIGHT:1.2",
+                          "FONT:Interstate-Regular",
+                          "COLOR:rgb(173, 173, 173)",
+                          "SIZE:12"
+                        ]
+                      },
+                      "text" : "Client \/ Job ID",
+                      "key" : "3av8d",
+                      "type" : "unstyled"
+                    }
+                  ],
+                  "__class" : "StyledTextDraft",
+                  "entityMap" : {
+
+                  }
+                },
+                "name" : "d3",
+                "shadows" : [
+                  {
+                    "y" : 2,
+                    "enabled" : false,
+                    "blur" : 5,
+                    "x" : 0,
+                    "__class" : "Shadow",
+                    "color" : "rgba(0,0,0,0.25)"
+                  }
+                ],
+                "id" : "ZVLTM=yL",
+                "x" : 28,
+                "constraintsLocked" : false,
+                "left" : 30,
+                "bottom" : null,
+                "height" : 14,
+                "opacity" : 1,
+                "width" : 82,
+                "widthFactor" : null,
+                "targetName" : "d3",
+                "heightFactor" : null,
+                "editable" : false,
+                "visible" : true,
+                "centerAnchorY" : 0.3715415019762846,
+                "autoSize" : true,
+                "y" : 32
+              },
+              {
+                "__class" : "TextNode",
+                "locked" : false,
+                "centerAnchorX" : 0.172,
+                "parentid" : "'S|e,{5g",
+                "rotation" : 0,
+                "top" : 111,
+                "right" : null,
+                "styledText" : {
+                  "blocks" : [
+                    {
+                      "depth" : 0,
+                      "inlineStyleRanges" : [
+                        {
+                          "length" : 6,
+                          "style" : "SIZE:16",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 6,
+                          "style" : "LETTERSPACING:0",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 6,
+                          "style" : "LINEHEIGHT:1.2",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 6,
+                          "style" : "COLOR:rgb(83, 86, 90)",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 6,
+                          "style" : "FONT:Interstate-Bold",
+                          "offset" : 0
+                        }
+                      ],
+                      "entityRanges" : [
+
+                      ],
+                      "data" : {
+                        "emptyStyle" : [
+                          "SIZE:16",
+                          "LETTERSPACING:0",
+                          "LINEHEIGHT:1.2",
+                          "COLOR:rgb(83, 86, 90)",
+                          "FONT:Interstate-Bold"
+                        ]
+                      },
+                      "text" : "049457",
+                      "key" : "3av8d",
+                      "type" : "unstyled"
+                    }
+                  ],
+                  "__class" : "StyledTextDraft",
+                  "entityMap" : {
+
+                  }
+                },
+                "name" : "d4",
+                "shadows" : [
+                  {
+                    "y" : 2,
+                    "enabled" : false,
+                    "blur" : 5,
+                    "x" : 0,
+                    "__class" : "Shadow",
+                    "color" : "rgba(0,0,0,0.25)"
+                  }
+                ],
+                "id" : "=|R?`u%~",
+                "x" : 30,
+                "constraintsLocked" : false,
+                "left" : 32,
+                "bottom" : null,
+                "height" : 19,
+                "opacity" : 1,
+                "width" : 65,
+                "widthFactor" : null,
+                "targetName" : "d4",
+                "heightFactor" : null,
+                "editable" : false,
+                "visible" : true,
+                "centerAnchorY" : 0.4762845849802372,
+                "autoSize" : true,
+                "y" : 46
+              }
             ],
-            "fillEnabled" : true,
+            "fillEnabled" : false,
             "parentid" : "prZZ-p1{",
             "borderRight" : 1,
-            "name" : null,
-            "height" : 1,
+            "name" : "detailsContainer",
+            "height" : 253,
             "borderWidth" : 1,
             "top" : null,
             "borderTop" : 1,
@@ -1058,702 +1805,16 @@
             "borderBottom" : 1,
             "borderEnabled" : false,
             "constraintsLocked" : false,
-            "right" : 15,
+            "right" : 0,
             "radiusPerCorner" : false,
-            "centerAnchorY" : 0.5509745127436282,
+            "centerAnchorY" : 0.6319340329835083,
             "visible" : true,
             "borderLeft" : 1,
             "heightFactor" : null,
             "radiusTopLeft" : 0,
-            "targetName" : null,
-            "bottom" : 299,
-            "width" : 345
-          },
-          {
-            "radiusBottomLeft" : 0,
-            "rotation" : 0,
-            "__class" : "RectangleNode",
-            "id" : "Ji2CIVCA",
-            "fillColor" : "rgb(238, 238, 238)",
-            "aspectRatioLocked" : false,
-            "widthFactor" : null,
-            "opacity" : 1,
-            "clip" : false,
-            "borderColor" : "#222",
-            "left" : 15,
-            "locked" : false,
-            "fillGradient" : {
-              "end" : "rgba(0,0,0,0)",
-              "alpha" : 1,
-              "angle" : 0,
-              "__class" : "LinearGradient",
-              "start" : "black"
-            },
-            "radius" : 0,
-            "boxShadows" : [
-              {
-                "x" : 0,
-                "color" : "rgba(0,0,0,0.25)",
-                "enabled" : false,
-                "y" : 2,
-                "__class" : "BoxShadow",
-                "inset" : false,
-                "blur" : 5
-              }
-            ],
-            "centerAnchorX" : 0.5,
-            "borderPerSide" : false,
-            "fillType" : "color",
-            "radiusBottomRight" : 0,
-            "children" : [
-
-            ],
-            "fillEnabled" : true,
-            "parentid" : "prZZ-p1{",
-            "borderRight" : 1,
-            "name" : null,
-            "height" : 1,
-            "borderWidth" : 1,
-            "top" : null,
-            "borderTop" : 1,
-            "radiusTopRight" : 0,
-            "borderBottom" : 1,
-            "borderEnabled" : false,
-            "constraintsLocked" : false,
-            "right" : 15,
-            "radiusPerCorner" : false,
-            "centerAnchorY" : 0.6604197901049476,
-            "visible" : true,
-            "borderLeft" : 1,
-            "heightFactor" : null,
-            "radiusTopLeft" : 0,
-            "targetName" : null,
-            "bottom" : 226,
-            "width" : 345
-          },
-          {
-            "__class" : "TextNode",
-            "locked" : false,
-            "centerAnchorX" : 0.1773333333333333,
-            "parentid" : "prZZ-p1{",
-            "rotation" : 0,
-            "top" : null,
-            "right" : null,
-            "styledText" : {
-              "blocks" : [
-                {
-                  "depth" : 0,
-                  "inlineStyleRanges" : [
-                    {
-                      "length" : 7,
-                      "style" : "SIZE:16",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 7,
-                      "style" : "LETTERSPACING:0",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 7,
-                      "style" : "LINEHEIGHT:1.2",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 7,
-                      "style" : "COLOR:rgb(83, 86, 90)",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 7,
-                      "style" : "FONT:Interstate-Bold",
-                      "offset" : 0
-                    }
-                  ],
-                  "entityRanges" : [
-
-                  ],
-                  "data" : {
-                    "emptyStyle" : [
-                      "SIZE:16",
-                      "LETTERSPACING:0",
-                      "LINEHEIGHT:1.2",
-                      "COLOR:rgb(83, 86, 90)",
-                      "FONT:Interstate-Bold"
-                    ]
-                  },
-                  "text" : "$250.00",
-                  "key" : "3av8d",
-                  "type" : "unstyled"
-                }
-              ],
-              "__class" : "StyledTextDraft",
-              "entityMap" : {
-
-              }
-            },
-            "name" : "d2",
-            "shadows" : [
-              {
-                "y" : 2,
-                "enabled" : false,
-                "blur" : 5,
-                "x" : 0,
-                "__class" : "Shadow",
-                "color" : "rgba(0,0,0,0.25)"
-              }
-            ],
-            "id" : "acY&$;gF",
-            "x" : 30,
-            "constraintsLocked" : false,
-            "left" : 32,
-            "bottom" : 315,
-            "height" : 19,
-            "opacity" : 1,
-            "width" : 69,
-            "widthFactor" : null,
-            "targetName" : "d2",
-            "heightFactor" : null,
-            "editable" : false,
-            "visible" : true,
-            "centerAnchorY" : 0.5134932533733133,
-            "autoSize" : true,
-            "y" : 46
-          },
-          {
-            "__class" : "TextNode",
-            "locked" : false,
-            "centerAnchorX" : 0.1693333333333333,
-            "parentid" : "prZZ-p1{",
-            "rotation" : 0,
-            "top" : 309,
-            "right" : null,
-            "styledText" : {
-              "blocks" : [
-                {
-                  "depth" : 0,
-                  "inlineStyleRanges" : [
-                    {
-                      "length" : 12,
-                      "style" : "LETTERSPACING:0",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 12,
-                      "style" : "LINEHEIGHT:1.2",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 12,
-                      "style" : "FONT:Interstate-Regular",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 12,
-                      "style" : "COLOR:rgb(173, 173, 173)",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 12,
-                      "style" : "SIZE:12",
-                      "offset" : 0
-                    }
-                  ],
-                  "entityRanges" : [
-
-                  ],
-                  "data" : {
-                    "emptyStyle" : [
-                      "LETTERSPACING:0",
-                      "LINEHEIGHT:1.2",
-                      "FONT:Interstate-Regular",
-                      "COLOR:rgb(173, 173, 173)",
-                      "SIZE:12"
-                    ]
-                  },
-                  "text" : "Credit Limit",
-                  "key" : "3av8d",
-                  "type" : "unstyled"
-                }
-              ],
-              "__class" : "StyledTextDraft",
-              "entityMap" : {
-
-              }
-            },
-            "name" : "d1",
-            "shadows" : [
-              {
-                "y" : 2,
-                "enabled" : false,
-                "blur" : 5,
-                "x" : 0,
-                "__class" : "Shadow",
-                "color" : "rgba(0,0,0,0.25)"
-              }
-            ],
-            "id" : "KnS.lPsS",
-            "x" : 28,
-            "constraintsLocked" : false,
-            "left" : 30,
-            "bottom" : null,
-            "height" : 14,
-            "opacity" : 1,
-            "width" : 67,
-            "widthFactor" : null,
-            "targetName" : "d1",
-            "heightFactor" : null,
-            "editable" : false,
-            "visible" : true,
-            "centerAnchorY" : 0.4737631184407796,
-            "autoSize" : true,
-            "y" : 32
-          },
-          {
-            "__class" : "TextNode",
-            "locked" : false,
-            "centerAnchorX" : 0.192,
-            "parentid" : "prZZ-p1{",
-            "rotation" : 0,
-            "top" : null,
-            "right" : null,
-            "styledText" : {
-              "blocks" : [
-                {
-                  "depth" : 0,
-                  "inlineStyleRanges" : [
-                    {
-                      "length" : 15,
-                      "style" : "LETTERSPACING:0",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 15,
-                      "style" : "LINEHEIGHT:1.2",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 15,
-                      "style" : "FONT:Interstate-Regular",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 15,
-                      "style" : "COLOR:rgb(173, 173, 173)",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 15,
-                      "style" : "SIZE:12",
-                      "offset" : 0
-                    }
-                  ],
-                  "entityRanges" : [
-
-                  ],
-                  "data" : {
-                    "emptyStyle" : [
-                      "LETTERSPACING:0",
-                      "LINEHEIGHT:1.2",
-                      "FONT:Interstate-Regular",
-                      "COLOR:rgb(173, 173, 173)",
-                      "SIZE:12"
-                    ]
-                  },
-                  "text" : "Billing Address",
-                  "key" : "3av8d",
-                  "type" : "unstyled"
-                }
-              ],
-              "__class" : "StyledTextDraft",
-              "entityMap" : {
-
-              }
-            },
-            "name" : "d5",
-            "shadows" : [
-              {
-                "y" : 2,
-                "enabled" : false,
-                "blur" : 5,
-                "x" : 0,
-                "__class" : "Shadow",
-                "color" : "rgba(0,0,0,0.25)"
-              }
-            ],
-            "id" : "N#[5-2aW",
-            "x" : 28,
-            "constraintsLocked" : false,
-            "left" : 30,
-            "bottom" : 198,
-            "height" : 14,
-            "opacity" : 1,
-            "width" : 84,
-            "widthFactor" : null,
-            "targetName" : "d5",
-            "heightFactor" : null,
-            "editable" : false,
-            "visible" : true,
-            "centerAnchorY" : 0.6926536731634183,
-            "autoSize" : true,
-            "y" : 32
-          },
-          {
-            "__class" : "TextNode",
-            "locked" : false,
-            "centerAnchorX" : 0.2866666666666667,
-            "parentid" : "prZZ-p1{",
-            "rotation" : 0,
-            "top" : null,
-            "right" : null,
-            "styledText" : {
-              "blocks" : [
-                {
-                  "depth" : 0,
-                  "inlineStyleRanges" : [
-                    {
-                      "length" : 13,
-                      "style" : "SIZE:16",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 13,
-                      "style" : "LETTERSPACING:0",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 13,
-                      "style" : "LINEHEIGHT:1.2",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 13,
-                      "style" : "COLOR:rgb(83, 86, 90)",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 13,
-                      "style" : "FONT:Interstate-Bold",
-                      "offset" : 0
-                    }
-                  ],
-                  "entityRanges" : [
-
-                  ],
-                  "data" : {
-                    "emptyStyle" : [
-                      "SIZE:16",
-                      "LETTERSPACING:0",
-                      "LINEHEIGHT:1.2",
-                      "COLOR:rgb(83, 86, 90)",
-                      "FONT:Interstate-Bold"
-                    ]
-                  },
-                  "text" : "1234 Broadway",
-                  "key" : "3av8d",
-                  "type" : "unstyled"
-                },
-                {
-                  "depth" : 0,
-                  "inlineStyleRanges" : [
-                    {
-                      "length" : 9,
-                      "style" : "SIZE:16",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 9,
-                      "style" : "LETTERSPACING:0",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 9,
-                      "style" : "LINEHEIGHT:1.2",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 9,
-                      "style" : "COLOR:rgb(83, 86, 90)",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 9,
-                      "style" : "FONT:Interstate-Bold",
-                      "offset" : 0
-                    }
-                  ],
-                  "entityRanges" : [
-
-                  ],
-                  "data" : {
-                    "emptyStyle" : [
-                      "SIZE:16",
-                      "LETTERSPACING:0",
-                      "LINEHEIGHT:1.2",
-                      "COLOR:rgb(83, 86, 90)",
-                      "FONT:Interstate-Bold"
-                    ]
-                  },
-                  "text" : "5th Floor",
-                  "key" : "30ank",
-                  "type" : "unstyled"
-                },
-                {
-                  "depth" : 0,
-                  "inlineStyleRanges" : [
-                    {
-                      "length" : 18,
-                      "style" : "SIZE:16",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 18,
-                      "style" : "LETTERSPACING:0",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 18,
-                      "style" : "LINEHEIGHT:1.2",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 18,
-                      "style" : "COLOR:rgb(83, 86, 90)",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 18,
-                      "style" : "FONT:Interstate-Bold",
-                      "offset" : 0
-                    }
-                  ],
-                  "entityRanges" : [
-
-                  ],
-                  "data" : {
-                    "emptyStyle" : [
-                      "SIZE:16",
-                      "LETTERSPACING:0",
-                      "LINEHEIGHT:1.2",
-                      "COLOR:rgb(83, 86, 90)",
-                      "FONT:Interstate-Bold"
-                    ]
-                  },
-                  "text" : "New York, NY 10001",
-                  "key" : "c3tlp",
-                  "type" : "unstyled"
-                }
-              ],
-              "__class" : "StyledTextDraft",
-              "entityMap" : {
-
-              }
-            },
-            "name" : "d6",
-            "shadows" : [
-              {
-                "y" : 2,
-                "enabled" : false,
-                "blur" : 5,
-                "x" : 0,
-                "__class" : "Shadow",
-                "color" : "rgba(0,0,0,0.25)"
-              }
-            ],
-            "id" : "gqqf=1?s",
-            "x" : 30,
-            "constraintsLocked" : false,
-            "left" : 30,
-            "bottom" : 131,
-            "height" : 57,
-            "opacity" : 1,
-            "width" : 155,
-            "widthFactor" : null,
-            "targetName" : "d6",
-            "heightFactor" : null,
-            "editable" : false,
-            "visible" : true,
-            "centerAnchorY" : 0.7608695652173914,
-            "autoSize" : true,
-            "y" : 46
-          },
-          {
-            "__class" : "TextNode",
-            "locked" : false,
-            "centerAnchorX" : 0.1893333333333333,
-            "parentid" : "prZZ-p1{",
-            "rotation" : 0,
-            "top" : null,
-            "right" : null,
-            "styledText" : {
-              "blocks" : [
-                {
-                  "depth" : 0,
-                  "inlineStyleRanges" : [
-                    {
-                      "length" : 15,
-                      "style" : "LETTERSPACING:0",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 15,
-                      "style" : "LINEHEIGHT:1.2",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 15,
-                      "style" : "FONT:Interstate-Regular",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 15,
-                      "style" : "COLOR:rgb(173, 173, 173)",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 15,
-                      "style" : "SIZE:12",
-                      "offset" : 0
-                    }
-                  ],
-                  "entityRanges" : [
-
-                  ],
-                  "data" : {
-                    "emptyStyle" : [
-                      "LETTERSPACING:0",
-                      "LINEHEIGHT:1.2",
-                      "FONT:Interstate-Regular",
-                      "COLOR:rgb(173, 173, 173)",
-                      "SIZE:12"
-                    ]
-                  },
-                  "text" : "Client \/ Job ID",
-                  "key" : "3av8d",
-                  "type" : "unstyled"
-                }
-              ],
-              "__class" : "StyledTextDraft",
-              "entityMap" : {
-
-              }
-            },
-            "name" : "d3",
-            "shadows" : [
-              {
-                "y" : 2,
-                "enabled" : false,
-                "blur" : 5,
-                "x" : 0,
-                "__class" : "Shadow",
-                "color" : "rgba(0,0,0,0.25)"
-              }
-            ],
-            "id" : "ZVLTM=yL",
-            "x" : 28,
-            "constraintsLocked" : false,
-            "left" : 30,
-            "bottom" : 271,
-            "height" : 14,
-            "opacity" : 1,
-            "width" : 82,
-            "widthFactor" : null,
-            "targetName" : "d3",
-            "heightFactor" : null,
-            "editable" : false,
-            "visible" : true,
-            "centerAnchorY" : 0.5832083958020989,
-            "autoSize" : true,
-            "y" : 32
-          },
-          {
-            "__class" : "TextNode",
-            "locked" : false,
-            "centerAnchorX" : 0.172,
-            "parentid" : "prZZ-p1{",
-            "rotation" : 0,
-            "top" : null,
-            "right" : null,
-            "styledText" : {
-              "blocks" : [
-                {
-                  "depth" : 0,
-                  "inlineStyleRanges" : [
-                    {
-                      "length" : 6,
-                      "style" : "SIZE:16",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 6,
-                      "style" : "LETTERSPACING:0",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 6,
-                      "style" : "LINEHEIGHT:1.2",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 6,
-                      "style" : "COLOR:rgb(83, 86, 90)",
-                      "offset" : 0
-                    },
-                    {
-                      "length" : 6,
-                      "style" : "FONT:Interstate-Bold",
-                      "offset" : 0
-                    }
-                  ],
-                  "entityRanges" : [
-
-                  ],
-                  "data" : {
-                    "emptyStyle" : [
-                      "SIZE:16",
-                      "LETTERSPACING:0",
-                      "LINEHEIGHT:1.2",
-                      "COLOR:rgb(83, 86, 90)",
-                      "FONT:Interstate-Bold"
-                    ]
-                  },
-                  "text" : "049457",
-                  "key" : "3av8d",
-                  "type" : "unstyled"
-                }
-              ],
-              "__class" : "StyledTextDraft",
-              "entityMap" : {
-
-              }
-            },
-            "name" : "d4",
-            "shadows" : [
-              {
-                "y" : 2,
-                "enabled" : false,
-                "blur" : 5,
-                "x" : 0,
-                "__class" : "Shadow",
-                "color" : "rgba(0,0,0,0.25)"
-              }
-            ],
-            "id" : "=|R?`u%~",
-            "x" : 30,
-            "constraintsLocked" : false,
-            "left" : 32,
-            "bottom" : 242,
-            "height" : 19,
-            "opacity" : 1,
-            "width" : 65,
-            "widthFactor" : null,
-            "targetName" : "d4",
-            "heightFactor" : null,
-            "editable" : false,
-            "visible" : true,
-            "centerAnchorY" : 0.6229385307346327,
-            "autoSize" : true,
-            "y" : 46
+            "targetName" : "detailsContainer",
+            "bottom" : 119,
+            "width" : 375
           }
         ],
         "height" : 667,

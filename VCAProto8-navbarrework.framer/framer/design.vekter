@@ -806,6 +806,124 @@
                 "centerAnchorY" : 0.1721428571428572,
                 "autoSize" : true,
                 "y" : 46
+              },
+              {
+                "radiusBottomLeft" : 0,
+                "rotation" : 0,
+                "__class" : "ImageNode",
+                "id" : "%0IWkWy+",
+                "fillColor" : "transparent",
+                "aspectRatioLocked" : true,
+                "imageBackgroundSize" : "Cover",
+                "widthFactor" : null,
+                "opacity" : 1,
+                "clip" : false,
+                "borderColor" : "#222",
+                "left" : 0,
+                "locked" : false,
+                "radius" : 0,
+                "boxShadows" : [
+                  {
+                    "x" : 0,
+                    "color" : "rgba(0,0,0,0.25)",
+                    "enabled" : false,
+                    "y" : 2,
+                    "__class" : "BoxShadow",
+                    "inset" : false,
+                    "blur" : 5
+                  }
+                ],
+                "centerAnchorX" : 0.5,
+                "borderPerSide" : false,
+                "radiusBottomRight" : 0,
+                "children" : [
+
+                ],
+                "fillEnabled" : false,
+                "parentid" : "'S|e,{5g",
+                "borderRight" : 1,
+                "image" : "gZEZLm7jmojBhvi2h1JQjRS2WEt37n7pbTri0fO29rIkxCUngTGl7EXwbcDSBIusMq2mRC9ayal8vDySM2IVGQ.png",
+                "name" : "transactionCompleted",
+                "height" : 414,
+                "borderWidth" : 1,
+                "top" : null,
+                "borderTop" : 1,
+                "radiusTopRight" : 0,
+                "intrinsicWidth" : 375,
+                "borderBottom" : 1,
+                "originalFilename" : "transaction - completed.png",
+                "borderEnabled" : false,
+                "constraintsLocked" : false,
+                "right" : 0,
+                "radiusPerCorner" : false,
+                "centerAnchorY" : 0.6757142857142857,
+                "visible" : true,
+                "borderLeft" : 1,
+                "heightFactor" : null,
+                "intrinsicHeight" : 414,
+                "radiusTopLeft" : 0,
+                "targetName" : "transactionCompleted",
+                "bottom" : 20,
+                "width" : 375
+              },
+              {
+                "radiusBottomLeft" : 0,
+                "rotation" : 0,
+                "__class" : "ImageNode",
+                "id" : "),>*>L2<",
+                "fillColor" : "transparent",
+                "aspectRatioLocked" : true,
+                "imageBackgroundSize" : "Cover",
+                "widthFactor" : null,
+                "opacity" : 1,
+                "clip" : false,
+                "borderColor" : "#222",
+                "left" : 0,
+                "locked" : false,
+                "radius" : 0,
+                "boxShadows" : [
+                  {
+                    "x" : 0,
+                    "color" : "rgba(0,0,0,0.25)",
+                    "enabled" : false,
+                    "y" : 2,
+                    "__class" : "BoxShadow",
+                    "inset" : false,
+                    "blur" : 5
+                  }
+                ],
+                "centerAnchorX" : 0.5,
+                "borderPerSide" : false,
+                "radiusBottomRight" : 0,
+                "children" : [
+
+                ],
+                "fillEnabled" : false,
+                "parentid" : "'S|e,{5g",
+                "borderRight" : 1,
+                "image" : "r87JwHG7e45pPt3usW000ZY52u0w6ZKhfFC0gsg5ze3RvULTkrgH93IXre434a2NRCBgxt4qOeT7LQrTUIA.png",
+                "name" : "transactionReview",
+                "height" : 364,
+                "borderWidth" : 1,
+                "top" : null,
+                "borderTop" : 1,
+                "radiusTopRight" : 0,
+                "intrinsicWidth" : 375,
+                "borderBottom" : 1,
+                "originalFilename" : "transaction - review.png",
+                "borderEnabled" : false,
+                "constraintsLocked" : false,
+                "right" : 0,
+                "radiusPerCorner" : false,
+                "centerAnchorY" : 0.64,
+                "visible" : true,
+                "borderLeft" : 1,
+                "heightFactor" : null,
+                "intrinsicHeight" : 364,
+                "radiusTopLeft" : 0,
+                "targetName" : "transactionReview",
+                "bottom" : 70,
+                "width" : 375
               }
             ],
             "fillEnabled" : false,
@@ -842,7 +960,7 @@
             "opacity" : 1,
             "clip" : false,
             "borderColor" : "#222",
-            "left" : 0,
+            "left" : -6,
             "locked" : false,
             "fillGradient" : {
               "end" : "rgba(0,0,0,0)",
@@ -874,24 +992,24 @@
             "parentid" : "prZZ-p1{",
             "borderRight" : 1,
             "name" : "detailBG",
-            "height" : 50,
+            "height" : 52,
             "borderWidth" : 1,
-            "top" : 68,
+            "top" : 66,
             "borderTop" : 1,
             "radiusTopRight" : 0,
             "borderBottom" : 1,
             "borderEnabled" : false,
             "constraintsLocked" : false,
-            "right" : 0,
+            "right" : -6,
             "radiusPerCorner" : false,
-            "centerAnchorY" : 0.1394302848575712,
+            "centerAnchorY" : 0.1379310344827586,
             "visible" : true,
             "borderLeft" : 1,
             "heightFactor" : null,
             "radiusTopLeft" : 0,
             "targetName" : "detailBG",
             "bottom" : null,
-            "width" : 375
+            "width" : 387
           },
           {
             "radiusBottomLeft" : 0,
@@ -941,7 +1059,7 @@
                 "opacity" : 1,
                 "clip" : false,
                 "borderColor" : "#222",
-                "left" : 15,
+                "left" : 22.5,
                 "locked" : false,
                 "fillGradient" : {
                   "end" : "rgb(1, 190, 202)",
@@ -970,7 +1088,7 @@
                   {
                     "__class" : "TextNode",
                     "locked" : false,
-                    "centerAnchorX" : 0.1594202898550725,
+                    "centerAnchorX" : 0.1646706586826347,
                     "parentid" : "a;IkTcm'",
                     "rotation" : 0,
                     "top" : null,
@@ -1052,14 +1170,14 @@
                     "heightFactor" : null,
                     "editable" : false,
                     "visible" : true,
-                    "centerAnchorY" : 0.6789473684210526,
+                    "centerAnchorY" : 0.6684782608695652,
                     "autoSize" : true,
                     "y" : 51
                   },
                   {
                     "__class" : "TextNode",
                     "locked" : false,
-                    "centerAnchorX" : 0.2202898550724638,
+                    "centerAnchorX" : 0.2275449101796407,
                     "parentid" : "a;IkTcm'",
                     "rotation" : 0,
                     "top" : null,
@@ -1141,14 +1259,14 @@
                     "heightFactor" : null,
                     "editable" : false,
                     "visible" : true,
-                    "centerAnchorY" : 0.8184210526315789,
+                    "centerAnchorY" : 0.8125,
                     "autoSize" : true,
                     "y" : 111
                   },
                   {
                     "__class" : "TextNode",
                     "locked" : false,
-                    "centerAnchorX" : 0.1695652173913043,
+                    "centerAnchorX" : 0.1751497005988024,
                     "parentid" : "a;IkTcm'",
                     "rotation" : 0,
                     "top" : 59,
@@ -1230,17 +1348,17 @@
                     "heightFactor" : null,
                     "editable" : false,
                     "visible" : true,
-                    "centerAnchorY" : 0.3473684210526316,
+                    "centerAnchorY" : 0.358695652173913,
                     "autoSize" : true,
                     "y" : 51
                   },
                   {
                     "__class" : "TextNode",
                     "locked" : false,
-                    "centerAnchorX" : 0.8376811594202899,
+                    "centerAnchorX" : 0.8323353293413174,
                     "parentid" : "a;IkTcm'",
                     "rotation" : 0,
-                    "top" : 83,
+                    "top" : null,
                     "right" : 20,
                     "styledText" : {
                       "blocks" : [
@@ -1319,14 +1437,14 @@
                     "heightFactor" : null,
                     "editable" : false,
                     "visible" : true,
-                    "centerAnchorY" : 0.4868421052631579,
+                    "centerAnchorY" : 0.5027173913043478,
                     "autoSize" : true,
                     "y" : 111
                   },
                   {
                     "__class" : "TextNode",
                     "locked" : false,
-                    "centerAnchorX" : 0.8159420289855073,
+                    "centerAnchorX" : 0.8098802395209581,
                     "parentid" : "a;IkTcm'",
                     "rotation" : 0,
                     "top" : 59,
@@ -1408,14 +1526,14 @@
                     "heightFactor" : null,
                     "editable" : false,
                     "visible" : true,
-                    "centerAnchorY" : 0.3473684210526316,
+                    "centerAnchorY" : 0.358695652173913,
                     "autoSize" : true,
                     "y" : 51
                   },
                   {
                     "__class" : "TextNode",
                     "locked" : false,
-                    "centerAnchorX" : 0.8376811594202899,
+                    "centerAnchorX" : 0.8937125748502994,
                     "parentid" : "a;IkTcm'",
                     "rotation" : 0,
                     "top" : null,
@@ -1497,14 +1615,14 @@
                     "heightFactor" : null,
                     "editable" : false,
                     "visible" : true,
-                    "centerAnchorY" : 0.8184210526315789,
+                    "centerAnchorY" : 0.8125,
                     "autoSize" : true,
                     "y" : 111
                   },
                   {
                     "__class" : "TextNode",
                     "locked" : false,
-                    "centerAnchorX" : 0.8159420289855073,
+                    "centerAnchorX" : 0.9011976047904192,
                     "parentid" : "a;IkTcm'",
                     "rotation" : 0,
                     "top" : null,
@@ -1586,17 +1704,17 @@
                     "heightFactor" : null,
                     "editable" : false,
                     "visible" : true,
-                    "centerAnchorY" : 0.6789473684210526,
+                    "centerAnchorY" : 0.6684782608695652,
                     "autoSize" : true,
                     "y" : 51
                   },
                   {
                     "__class" : "TextNode",
                     "locked" : false,
-                    "centerAnchorX" : 0.2405797101449275,
+                    "centerAnchorX" : 0.3158682634730539,
                     "parentid" : "a;IkTcm'",
                     "rotation" : 0,
-                    "top" : 83,
+                    "top" : null,
                     "right" : null,
                     "styledText" : {
                       "blocks" : [
@@ -1675,14 +1793,14 @@
                     "heightFactor" : null,
                     "editable" : false,
                     "visible" : true,
-                    "centerAnchorY" : 0.4868421052631579,
+                    "centerAnchorY" : 0.5027173913043478,
                     "autoSize" : true,
                     "y" : 111
                   },
                   {
                     "__class" : "TextNode",
                     "locked" : false,
-                    "centerAnchorX" : 0.1405797101449275,
+                    "centerAnchorX" : 0.1452095808383234,
                     "parentid" : "a;IkTcm'",
                     "rotation" : 0,
                     "top" : 20,
@@ -1764,7 +1882,7 @@
                     "heightFactor" : null,
                     "editable" : false,
                     "visible" : true,
-                    "centerAnchorY" : 0.1605263157894737,
+                    "centerAnchorY" : 0.1657608695652174,
                     "autoSize" : true,
                     "y" : 111
                   }
@@ -1773,15 +1891,15 @@
                 "parentid" : "?)-%b[eC",
                 "borderRight" : 1,
                 "name" : "realCard",
-                "height" : 190,
+                "height" : 182,
                 "borderWidth" : 1,
-                "top" : 19,
+                "top" : 23,
                 "borderTop" : 1,
                 "radiusTopRight" : 5,
                 "borderBottom" : 1,
                 "borderEnabled" : false,
                 "constraintsLocked" : false,
-                "right" : 15,
+                "right" : 22.5,
                 "radiusPerCorner" : false,
                 "centerAnchorY" : 0.5066666666666667,
                 "visible" : true,
@@ -1789,8 +1907,8 @@
                 "heightFactor" : null,
                 "radiusTopLeft" : 5,
                 "targetName" : "realCard",
-                "bottom" : 16,
-                "width" : 345
+                "bottom" : 20,
+                "width" : 330
               }
             ],
             "fillEnabled" : false,
@@ -1964,6 +2082,95 @@
                 "centerAnchorY" : 0.6796875,
                 "autoSize" : true,
                 "y" : 49
+              },
+              {
+                "__class" : "TextNode",
+                "locked" : false,
+                "centerAnchorX" : 0.5013333333333333,
+                "parentid" : "~BFbm&Ak",
+                "rotation" : 0,
+                "top" : null,
+                "right" : null,
+                "styledText" : {
+                  "blocks" : [
+                    {
+                      "depth" : 0,
+                      "inlineStyleRanges" : [
+                        {
+                          "length" : 7,
+                          "style" : "LETTERSPACING:0",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 7,
+                          "style" : "LINEHEIGHT:1.2",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 7,
+                          "style" : "COLOR:rgb(255, 255, 255)",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 7,
+                          "style" : "FONT:Interstate-Bold",
+                          "offset" : 0
+                        },
+                        {
+                          "length" : 7,
+                          "style" : "SIZE:16",
+                          "offset" : 0
+                        }
+                      ],
+                      "entityRanges" : [
+
+                      ],
+                      "data" : {
+                        "emptyStyle" : [
+                          "LETTERSPACING:0",
+                          "LINEHEIGHT:1.2",
+                          "COLOR:rgb(255, 255, 255)",
+                          "FONT:Interstate-Bold",
+                          "SIZE:16"
+                        ]
+                      },
+                      "text" : "Filters",
+                      "key" : "3av8d",
+                      "type" : "unstyled"
+                    }
+                  ],
+                  "__class" : "StyledTextDraft",
+                  "entityMap" : {
+
+                  }
+                },
+                "name" : null,
+                "shadows" : [
+                  {
+                    "y" : 2,
+                    "enabled" : false,
+                    "blur" : 5,
+                    "x" : 0,
+                    "__class" : "Shadow",
+                    "color" : "rgba(0,0,0,0.25)"
+                  }
+                ],
+                "id" : "!bVkDUhW",
+                "x" : 146,
+                "constraintsLocked" : false,
+                "left" : null,
+                "bottom" : 12,
+                "height" : 19,
+                "opacity" : 1,
+                "width" : 51,
+                "widthFactor" : null,
+                "targetName" : null,
+                "heightFactor" : null,
+                "editable" : false,
+                "visible" : true,
+                "centerAnchorY" : 0.6928571428571428,
+                "autoSize" : true,
+                "y" : 51
               }
             ],
             "fillEnabled" : true,
@@ -3283,6 +3490,68 @@
                 "radiusTopLeft" : 0,
                 "targetName" : "allCompletedButton1",
                 "bottom" : 413,
+                "width" : 352
+              },
+              {
+                "radiusBottomLeft" : 0,
+                "rotation" : 0,
+                "__class" : "RectangleNode",
+                "id" : "J4v3#UGx",
+                "fillColor" : "rgba(255, 255, 255, 0.01)",
+                "aspectRatioLocked" : false,
+                "widthFactor" : null,
+                "opacity" : 1,
+                "clip" : false,
+                "borderColor" : "#222",
+                "left" : 11,
+                "locked" : false,
+                "fillGradient" : {
+                  "end" : "rgba(0,0,0,0)",
+                  "alpha" : 1,
+                  "angle" : 0,
+                  "__class" : "LinearGradient",
+                  "start" : "black"
+                },
+                "radius" : 0,
+                "boxShadows" : [
+                  {
+                    "x" : 0,
+                    "color" : "rgba(0,0,0,0.25)",
+                    "enabled" : false,
+                    "y" : 2,
+                    "__class" : "BoxShadow",
+                    "inset" : false,
+                    "blur" : 5
+                  }
+                ],
+                "centerAnchorX" : 0.4986666666666666,
+                "borderPerSide" : false,
+                "fillType" : "color",
+                "radiusBottomRight" : 0,
+                "children" : [
+
+                ],
+                "fillEnabled" : true,
+                "parentid" : "!rgH6r)P",
+                "borderRight" : 1,
+                "name" : "allReviewButton1",
+                "height" : 144,
+                "borderWidth" : 1,
+                "top" : null,
+                "borderTop" : 1,
+                "radiusTopRight" : 0,
+                "borderBottom" : 1,
+                "borderEnabled" : false,
+                "constraintsLocked" : false,
+                "right" : 12,
+                "radiusPerCorner" : false,
+                "centerAnchorY" : 0.5120805369127517,
+                "visible" : true,
+                "borderLeft" : 1,
+                "heightFactor" : null,
+                "radiusTopLeft" : 0,
+                "targetName" : "allReviewButton1",
+                "bottom" : 655,
                 "width" : 352
               }
             ],

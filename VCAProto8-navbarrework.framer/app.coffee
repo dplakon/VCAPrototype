@@ -3,8 +3,8 @@
 Framer.Extras.Hints.disable()
 
 InputModule = require "input"
-# Styles
 
+# Styles
 
 
 # Global Variables
@@ -13,16 +13,6 @@ numOfCards = 0
 newCardName = "Untitled"
 newCardAmount = "$1500"
 detailState = "dash"
-gradientCompleted = new Gradient
-	start: "#0082D5"
-	end: "#00BECA"
-	angle: 115
-
-gradientActive = new Gradient
-	start: "03AD6D"
-	end: "#01BECA"
-	angle: 115
-
 
 # Classes
 
@@ -122,13 +112,26 @@ viewController.header = NavBar
 viewController.showNext(Dashboard)
 viewController.scroll.backgroundColor = "#EEEEEE"
 
-
-
 Dashboard.parent = viewController.scroll.content
 
 statusBar.index = 99
 
 InputModule = require "input"
+
+gradientCompleted = new Gradient
+	start: "#0082D5"
+	end: "#00BECA"
+	angle: 115
+
+gradientActive = new Gradient
+	start: "#03AD6D"
+	end: "#01BECA"
+	angle: 115
+
+gradientReview = new Gradient
+	start: "#5500FF"
+	end: "#6B45B8"
+	angle: 115
 
 # Text Input Fields
 
@@ -180,7 +183,7 @@ Events.wrap(dollarRequestField.form).addEventListener "submit", (event) ->
 
 # Detail Page Setup
 
-detailScroll = new ScrollComponent
+detailScroll = new ScrollComponent # custom scroller for text content
 	width: Screen.width
 	y: 120
 	height: 647
@@ -194,7 +197,7 @@ detailsContainer.parent = detailScroll.content
 detailsContainer.y = 185
 
 
-glow= new Layer
+glow= new Layer # shine layer on card 
 	width: 600
 	height: 600
 	opacity: 0.1
@@ -208,7 +211,7 @@ glow.style =
 
 realCard.clip = true
 
-#Filter Page
+# Filter Page
 
 all = new Layer y: 120
 active = new Layer y: 162
@@ -267,8 +270,6 @@ for i in [0..cardSort.length - 1]
 				this.backgroundColor = "rgba(255, 255, 255, .15)"
 	cardSort[0].backgroundColor = "rgba(255, 255, 255, .15)"
 
-
-	
 	text = new TextLayer
 		parent: cardSort[i]
 		text: sortNames[i]
@@ -279,9 +280,13 @@ for i in [0..cardSort.length - 1]
 		y: 13
 	i = i + 1
 
-
-
 # States
+
+transactionCompleted.states.hide =
+	opacity: 0
+
+transactionReview.states.hide =
+	opacity: 0
 
 d1.states.hide = 
 	y: d1.y + 200
@@ -322,7 +327,7 @@ d6.states.hide =
 realCard.states.normal =
 	rotationX: 0
 	rotationY: 0
-	z: 1
+	z: 5
 	midX: Screen.midX
 	y: 20
 	animationOptions:
@@ -342,7 +347,7 @@ realCard.states.open =
 	rotationY: 0
 	midX: Screen.midX
 	y: 20
-	z: 1
+	z: 5
 	animationOptions:
 		time: .5
 
@@ -358,6 +363,7 @@ realCard.states.lift =
 
 realCard.z = 1
 detailBG.z = -20
+
 NavBarBG.states.alerts =
 	backgroundColor: "rgb(0, 188, 240)"
 	animationOptions:
@@ -490,17 +496,17 @@ viewDetail = (status) ->
 	hamb.visible = false
 	pageTitle.text = "Meal Expense Card"
 	d1.animate("default")
-	Utils.delay .1, ->
+	Utils.delay .05, ->
 		d2.animate("default")
-		Utils.delay .1, ->
+		Utils.delay .05, ->
 			d3.animate("default")
-			Utils.delay .1, ->
+			Utils.delay .05, ->
 				d3.animate("default")
-				Utils.delay .1, ->
+				Utils.delay .05, ->
 					d4.animate("default")
-					Utils.delay .1, ->
+					Utils.delay .05, ->
 						d5.animate("default")
-						Utils.delay .1, ->
+						Utils.delay .05, ->
 							d6.animate("default")
 	realCard.animate("open")
 	detailScroll.scrollToPoint(
@@ -508,14 +514,19 @@ viewDetail = (status) ->
 		true 
 		curve: Bezier.ease
 		)
-	filterButton.visible = false
 	filterButton.animate("hide")
 	searchButton.visible = false
 	detailPageStatus.text = status
 	if status is "Completed"
 		realCard.gradient = gradientCompleted
+		Utils.delay .6, ->
+			transactionCompleted.animate("default")
 	if status is "Active"
 		realCard.gradient = gradientActive
+	if status is "Review"
+		realCard.gradient = gradientReview
+		Utils.delay .6, ->
+			transactionReview.animate("default")
 
 #detailScroll.content.on "change:y", ->
 #	print detailScroll.content.y
@@ -584,6 +595,10 @@ leaveDetail = () ->
 	searchButton.visible = true
 	filterButton.visible = true
 	filterButton.animate("show")
+	transactionCompleted.animate("hide")
+	transactionReview.animate("hide")
+	Utils.delay .3, ->
+		realCard.stateSwitch("hide")
 
 
 viewDashboard = () ->
@@ -710,55 +725,57 @@ d4.stateSwitch("hide")
 d5.stateSwitch("hide")
 d6.stateSwitch("hide")
 realCard.stateSwitch("hide")
+transactionCompleted.stateSwitch("hide")
+transactionReview.stateSwitch("hide")
 
 addCards("$150.00", "12 Hours", "Meal Expense Card", "7654")
 
 addCards("$250.00", "4 Days", "Production Costs", "7654")
 
-hamb.onClick (event, layer) ->
+hamb.onTap (event, layer) ->
 	viewController.showOverlayLeft(MenuBG)
 
 MenuBG.onSwipeLeftEnd (event, layer) ->
 	viewController.showPrevious()
 
-menuHamb.onClick (event, layer) ->
+menuHamb.onTap (event, layer) ->
 	viewController.showPrevious()
 
-alertsButton.onClick (event, layer) ->
+alertsButton.onTap (event, layer) ->
 	viewAlerts()
 
-backArrow.onClick (events, layer) ->
+backArrow.onTap (events, layer) ->
 	if detailState is "dash"
 		leaveAlerts()
 	if detailState is "all"
 		leaveDetail()
 
-addCard.onClick (events, layer) ->
+addCard.onTap (events, layer) ->
 	viewController.showOverlayBottom(AddCardPage)
 
-ViewAllButton.onClick (events, layer) ->
+ViewAllButton.onTap (events, layer) ->
 	viewAll()
 
-menuAllCards.onClick (events, layer) ->
+menuAllCards.onTap (events, layer) ->
 	if viewController.previous.name is "AllCards"
 		viewController.showPrevious()
 	else
 		viewAll()
 
 
-menuDashboard.onClick (event, layers) ->
+menuDashboard.onTap (event, layers) ->
 	if viewController.previous.name is "Dashboard"
 		viewController.showPrevious()
 	else
 		viewDashboard()
 
-searchButton.onClick (event, layers) ->
+searchButton.onTap (event, layers) ->
 	SearchCards()
 
-Cancel.onClick (event, layers) ->
+Cancel.onTap (event, layers) ->
 	CancelSearch()
 
-closeAdd.onClick (events, layers) ->
+closeAdd.onTap (events, layers) ->
 	viewController.showPrevious()
 
 requestCardButton.onTap (events, layers) ->
@@ -790,6 +807,12 @@ allCompletedButton1.onTap (events, layers) ->
 	viewController.showNext(CardDetailPage)
 	viewDetail("Completed")
 
+allReviewButton1.onTap (events, layers) ->
+	viewController.showNext(CardDetailPage)
+	viewDetail("Review")
+
+
+
 # Card Detail Pan Interaction
 
 realCard.onPan (event, layer) ->
@@ -808,7 +831,9 @@ realCard.onPan (event, layer) ->
 realCard.onPanEnd (event, layer) ->
 	realCard.animate("normal")
 
+###
 detailScroll.content.on "change:y", ->
 	realCard.scale = Utils.modulate detailScroll.content.y, [0, -200], [1,.5], true
 	realCard.y = Utils.modulate detailScroll.content.y, [0, -200], [19,-20], true
 	realCard.x = Utils.modulate detailScroll.content.y, [0, -200], [15, 100], true
+###

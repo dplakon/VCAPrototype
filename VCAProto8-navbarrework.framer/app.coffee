@@ -112,6 +112,18 @@ viewController.header = NavBar
 viewController.showNext(Dashboard)
 viewController.scroll.backgroundColor = "#EEEEEE"
 
+submitReceiptFlow = new PageComponent
+	parent: ReceiptCapturePage
+	backgroundColor: "blue"
+	height: Screen.height
+	width: Screen.width
+	scrollVertical: false
+	scrollHorizontal: false
+
+CameraPage.parent = submitReceiptFlow.content
+submitReceiptFlow.snapToPage(CameraPage,false)
+submitReceiptFlow.addPage(ConfirmPicturePage)
+submitReceiptFlow.addPage(reviewReceiptPage)
 Dashboard.parent = viewController.scroll.content
 
 statusBar.index = 99
@@ -194,13 +206,13 @@ detailScroll = new ScrollComponent # custom scroller for text content
 	z: -1
 
 detailsContainer.parent = detailScroll.content
-detailsContainer.y = 185
+detailsContainer.y = 195
 
 
 glow= new Layer # shine layer on card 
 	width: 600
 	height: 600
-	opacity: 0.1
+	opacity: 0.5
 	borderRadius: '100%'
 	parent: realCard
 	z: 10
@@ -811,7 +823,56 @@ allReviewButton1.onTap (events, layers) ->
 	viewController.showNext(CardDetailPage)
 	viewDetail("Review")
 
+# Submit Receipt Events
 
+submitReceiptButton1.onTap (events, layer) ->
+	viewController.showOverlayBottom(ReceiptCapturePage)
+
+submitReceiptButton2.onTap (events, layer) ->
+	viewController.showOverlayBottom(ReceiptCapturePage)
+
+submitReceiptButton3.onTap (events, layer) ->
+	viewController.showOverlayBottom(ReceiptCapturePage)
+
+submitReceiptButton4.onTap (events, layer) ->
+	viewController.showOverlayBottom(ReceiptCapturePage)
+
+submitReceiptCancel.onTap (events, layer) ->
+	viewController.showPrevious()
+
+shutter.onTap (events, layer) ->
+	submitReceiptFlow.snapToPage(ConfirmPicturePage)
+
+retakeButton.onTap (events, layers) ->
+	submitReceiptFlow.snapToPreviousPage()
+
+retakeButton2.onTap (events, layers) ->
+	submitReceiptFlow.snapToPage(CameraPage, false)
+
+closeReceipt.onTap (events, layers) ->
+	viewController.showPrevious()
+	Utils.delay .5, ->
+		submitReceiptFlow.snapToPage(CameraPage)
+
+closeReceipt2.onTap (events, layers) ->
+	viewController.showPrevious()
+	Utils.delay .5, ->
+		submitReceiptFlow.snapToPage(CameraPage)
+
+submitReceipt.onTap (events, layers) ->
+	if detailPageStatus.text is "Review"
+		viewController.showPrevious()
+		transactionReview.animate("hide")
+		viewDetail("Completed")
+		
+	else
+		viewController.showPrevious()
+		Utils.delay .5, ->
+			submitReceiptFlow.snapToPage(CameraPage)
+
+reviewReceipt.onTap (events, layers) ->
+	submitReceiptFlow.snapToPage(reviewReceiptPage, false)
+	viewController.showOverlayBottom(ReceiptCapturePage)
 
 # Card Detail Pan Interaction
 
@@ -824,16 +885,17 @@ realCard.onPan (event, layer) ->
 	realCard.rotationY = Utils.modulate delta.x, [0, activeArea.midY], [0, -1]
 	realCard.y = Utils.modulate -delta.y, [0, activeArea.midY], [15, 25]
 	realCard.midX = Utils.modulate -delta.x, [0, activeArea.midY], [realCard.parent.midX, realCard.parent.midX + 10]
-	glow.x = Utils.modulate delta.x, [0, realCard.midX], [-200, 200]
-	glow.y = Utils.modulate delta.y, [0, realCard.midY], [-200, 200]
-	glow.opacity= Utils.modulate delta.x, [0, activeArea.midX], [0.3, 1]
+	glow.x = Utils.modulate delta.x, [0, realCard.midX], [-75, 75]
+	glow.y = Utils.modulate delta.y, [0, realCard.midY], [-50, 50]
+	glow.opacity= Utils.modulate delta.x, [0, activeArea.midX], [0.1, .8]
 
 realCard.onPanEnd (event, layer) ->
 	realCard.animate("normal")
 
-###
+
 detailScroll.content.on "change:y", ->
-	realCard.scale = Utils.modulate detailScroll.content.y, [0, -200], [1,.5], true
-	realCard.y = Utils.modulate detailScroll.content.y, [0, -200], [19,-20], true
-	realCard.x = Utils.modulate detailScroll.content.y, [0, -200], [15, 100], true
+	realCard.height = Utils.modulate detailScroll.content.y, [0, -200], [210,60], true
+	cardText.opacity = Utils.modulate detailScroll.content.y, [0, -100], [1,0], true
+
+
 ###
